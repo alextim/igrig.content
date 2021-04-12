@@ -7,4 +7,4 @@ cover:
   alt: alt hero
 template: home
 ---
-test 2
+test 3
