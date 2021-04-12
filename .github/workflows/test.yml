@@ -1,0 +1,33 @@
+name: "test"
+
+on:  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'
+        required: false
+
+jobs:
+  # This workflow contains a single job called "build"
+  printInputs:
+    runs-on: ubuntu-latest
+    
+    steps:    
+      
+      - name: test
+        run: |
+          echo "Log level: ${{ github.event.inputs.logLevel }}"
+          echo "Tags: ${{ github.event.inputs.tags }}"
+      
+      - name: curl
+        run: |
+          curl \
+            -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/alextim/igrig/actions/workflows/submodule-update/dispatches \
+            -d '{"ref":"ref"}'
