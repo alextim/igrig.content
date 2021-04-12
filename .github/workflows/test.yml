@@ -19,6 +19,7 @@ jobs:
           curl \
             -X POST \
             -H "Accept: application/vnd.github.v3+json" \
+            -u ${{ secrets.API_TOKEN }} \
             https://api.github.com/repos/alextim/igrig/actions/workflows/submodule-update/dispatches \
             -d '{"ref":"master"}'
           echo "curl end"
