@@ -1,5 +1,1 @@
-# IGRIG
-
-test
-
-igrig.content
+# IGRIG.CONTENT
