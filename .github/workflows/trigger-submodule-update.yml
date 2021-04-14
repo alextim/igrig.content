@@ -2,25 +2,21 @@ name: "Trigger Submodule Update"
 
 on:  
   push:
-    branches: ['*']
     paths-ignore:
       - 'data/locales/translations/src/*.json'
-      #- '.github/**/*.*'
+      - '.github/**/*.*'
       - '.gitignore'
       - 'README.md'
 
 jobs:
-  # This workflow contains a single job called "build"
   runCURL:
     runs-on: ubuntu-latest
    
     steps:    
       - run: |
-          echo "curl start"
           curl \
             -X POST \
             -H "Accept: application/vnd.github.v3+json" \
             -u ${{ secrets.API_TOKEN }} \
             https://api.github.com/repos/alextim/igrig/actions/workflows/submodule-update.yml/dispatches \
             -d '{"ref":"master"}'
-          echo "curl end"
