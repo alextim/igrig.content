@@ -17,6 +17,8 @@ jobs:
     steps:    
       - run: |
           echo "curl start: ${GITHUB_ACTOR}"
+          echo ${GITHUB_ACTOR}
+          echo ${{ GITHUB_ACTOR }}
           curl \
             -X POST \
             -H "Accept: application/vnd.github.v3+json" \
