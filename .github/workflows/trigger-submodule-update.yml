@@ -6,6 +6,8 @@ on:
     paths-ignore:
       - 'data/locales/translations/src/*.json'
       - '.github/**/*.*'
+      - '.gitignore'
+      - 'README.md'
 
 jobs:
   # This workflow contains a single job called "build"
