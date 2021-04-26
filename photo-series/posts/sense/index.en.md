@@ -4,7 +4,7 @@ headline:
 metaTitle: 
 metaDescription:
 cover:
-  sm: ./images/look-into-future.jpg.jpg
+  sm: ./images/look-into-future.jpg
   xl: 
   alt: smiling woman looking hopefully into the distance through the window blinds
 datePublished: 2021-04-26
