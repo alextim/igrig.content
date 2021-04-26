@@ -41,7 +41,9 @@ dateModified: 2021-04-26
 ![nude girl stands with her back and her shape is entwined with black ribbon](./images/body-gifted.jpg)
 
 <div class="grid-2">
-  <img src="./images/gracefulness.jpg" alt="woman legs stretching the toe on a black sheet" /> 
+  <div>
+    <img src="./images/gracefulness.jpg" alt="woman legs stretching the toe on a black sheet"> 
+  </div>
   <div></div>
 </div>
 
@@ -58,6 +60,10 @@ dateModified: 2021-04-26
 ![girl hands and neck](./images/tenderness-in-autumn.jpg)
 
 <div class="grid-2">
-    <img src="./images/signs-of-passion.jpg" alt="girl nude back and bottom with a long curl" /> 
-    <img src="./images/captivated-by-thoughts.jpg" alt="nude girl with her hands around her head and body painted in silver" /> 
+  <div>
+    <img src="./images/signs-of-passion.jpg" alt="girl nude back and bottom with a long curl">
+  </div>
+  <div>
+    <img src="./images/captivated-by-thoughts.jpg" alt="nude girl with her hands around her head and body painted in silver">
+  </div>
 </div>
