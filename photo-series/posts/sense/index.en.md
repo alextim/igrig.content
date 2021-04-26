@@ -13,7 +13,7 @@ dateModified: 2021-04-26
 
 <div class="clearfix">
   <div class="left w-70">
-    <img src="./images/look-into-future.jpg" alt="smiling woman looking hopefully into the distance through the window blinds" />
+    <img src="./images/look-into-future.jpg" alt="smiling woman looking hopefully into the distance through the window blinds">
   </div>
   <div>
  SENSE означает «смысл, чувство, ощущение». В центре внимания – Человек, как мозаика, сотканный из фрагментов эмоций, мыслей и чувств, которые спонтанно рождаются и исчезают. Это порождает многочисленные грани одного целого. Какими бы разнообразными они не были, все это складывается в единый образ - Человека. Благодаря этой мозаике, он выделяется среди всего живого на Земле.
@@ -41,11 +41,8 @@ dateModified: 2021-04-26
 ![nude girl stands with her back and her shape is entwined with black ribbon](./images/body-gifted.jpg)
 
 <div class="grid-2">
-  <div>
-    <img src="./images/gracefulness.jpg" alt="woman legs stretching the toe on a black sheet" /> 
-  </div>
-  <div>
-  </div>
+  <img src="./images/gracefulness.jpg" alt="woman legs stretching the toe on a black sheet"> 
+  <div></div>
 </div>
 
 ![girl headed up with flying long hair and a gaze directed upward](./images/invisible-flight.jpg)
@@ -61,6 +58,6 @@ dateModified: 2021-04-26
 ![girl hands and neck](./images/tenderness-in-autumn.jpg)
 
 <div class="grid-2">
-    <img src="./images/signs-of-passion.jpg" alt="girl nude back and bottom with a long curl" /> 
-    <img src="./images/captivated-by-thoughts.jpg" alt="nude girl with her hands around her head and body painted in silver" /> 
+    <img src="./images/signs-of-passion.jpg" alt="girl nude back and bottom with a long curl"> 
+    <img src="./images/captivated-by-thoughts.jpg" alt="nude girl with her hands around her head and body painted in silver"> 
 </div>
