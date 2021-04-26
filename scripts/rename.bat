@@ -1,0 +1,1 @@
+for /F "eol=| delims=" %%A in ('dir "* *.jpg" /A-D-H /B 2^>nul') do for /F "eol=| tokens=1*" %%B in ("%%A") do ren "%%A" "%%C"
