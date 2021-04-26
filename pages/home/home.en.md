@@ -7,10 +7,12 @@ template: home
 sections:
   - items:
       - image:
-          sm: ./images/hero-480w.jpg
-          alt: alt sampple
+          sm: ./images/hero-mobile.jpg
+          alt: alt sample mob
       - image:
-          sm: ./images/hero-1024w.jpg
+          sm: ./images/hero-tablet.jpg
+          alt: alt sample tab
       - image:
-          sm: ./images/hero-1920w.jpg
+          sm: ./images/hero-desktop.jpg
+          alt: alt sample dt
 ---
