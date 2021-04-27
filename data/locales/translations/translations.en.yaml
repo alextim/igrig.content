@@ -89,9 +89,9 @@
 - key: cf.we_will_response
   value: We will response you in a nearest time.
 - key: footer.privacyPolicy
-  value: Pricacy Policy
+  value: Privacy Policy
 - key: footer.policies
-  value: Pricacy / Terms of Use
+  value: Privacy / Terms of Use
 - key: contacts.title
   value: Contact Us
 - key: contacts.wait_you_on_address
