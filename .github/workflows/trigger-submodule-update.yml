@@ -1,4 +1,4 @@
-name: Trigger Submodule Update
+name: Trigger submodule update
 
 on:  
   push:
@@ -20,4 +20,4 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             -u ${{ secrets.API_TOKEN }} \
             https://api.github.com/repos/alextim/igrig/actions/workflows/submodule-update.yml/dispatches \
-            -d '{"ref": "'"${GITHUB_REF}"'"}'
+            -d '{"ref": "'"${GITHUB_REF}"'", "inputs": { "commit_message": "'"${{ github.event.head_commit.message }}"'" }}'
